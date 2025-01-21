@@ -1,0 +1,87 @@
+/* Resetando estilos padrões */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+    padding: 20px;
+}
+
+/* Cabeçalho */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f886c3;
+    color: white;
+}
+
+header .logo h1 {
+    font-size: 24px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Seção de vídeos */
+.video-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.video-card {
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 290px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.short-video {
+    width: 100%;
+    height: 500px;
+}
+
+.video-info {
+    padding: 10px;
+}
+
+.video-info .title {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.video-info .channel-name {
+    font-size: 14px;
+    color: #555;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    margin-top: 40px;
+    color: #888;
+    font-size: 14px;
+}
